@@ -19,6 +19,7 @@ import { FormsModule as ngFormsModule } from '@angular/forms';
 import { RoomComponent } from './room.component';
 import { RoomListComponent } from './room-list/room-list.component';
 import { RoomItemComponent } from './room-item/room-item.component';
+import { RoomDetailsComponent } from './room-details/room-details.component';
 
 @NgModule({
   imports: [
@@ -41,7 +42,8 @@ import { RoomItemComponent } from './room-item/room-item.component';
   declarations: [
     RoomComponent,
     RoomListComponent,
-    RoomItemComponent
+    RoomItemComponent,
+    RoomDetailsComponent
   ],
 })
 export class RoomsModule { }

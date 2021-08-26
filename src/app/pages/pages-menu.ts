@@ -8,9 +8,18 @@ export const MENU_ITEMS: NbMenuItem[] = [
     home: true,
   },
   {
-    title: 'Habitaciones',
+    title: 'Habitación',
     icon: 'home-outline',
-    link: '/pages/rooms',
+    children: [
+      {
+        title: 'Habitaciones',
+        link: '/pages/room/rooms',
+      },
+      {
+        title: 'Detalle Habitaciones',
+        link: '/pages/room/room-details',
+      },
+    ]
   },
   // {
   //   title: 'NGX-ADMIN',

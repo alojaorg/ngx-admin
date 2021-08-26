@@ -2,8 +2,9 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'ngx-room',
-  styleUrls: ['./room.component.scss'],
-  templateUrl: './room.component.html',
+  template: `
+    <router-outlet></router-outlet>
+  `,  
 })
 export class RoomComponent {
 
