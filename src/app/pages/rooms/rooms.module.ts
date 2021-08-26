@@ -10,7 +10,7 @@ import {
   NbSelectModule,
   NbUserModule,
   NbAccordionModule,
-  NbListModule
+  NbListModule,
 } from '@nebular/theme';
 
 import { ThemeModule } from '../../@theme/theme.module';
@@ -37,13 +37,13 @@ import { RoomDetailsComponent } from './room-details/room-details.component';
     NbIconModule,
     ngFormsModule,
     NbAccordionModule,
-    NbListModule
+    NbListModule,
   ],
   declarations: [
     RoomComponent,
     RoomListComponent,
     RoomItemComponent,
-    RoomDetailsComponent
+    RoomDetailsComponent,
   ],
 })
 export class RoomsModule { }

@@ -8,6 +8,6 @@ import { Component } from '@angular/core';
 export class RoomDetailsComponent {
     starRate = 2;
     heartRate = 4;
-    radioGroupValue = 'This is value 2'; 
-  
+    radioGroupValue = 'This is value 2';
+
 }

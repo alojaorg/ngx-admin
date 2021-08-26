@@ -12,11 +12,11 @@ const routes: Routes = [
       {
         path: 'rooms',
         component: RoomListComponent,
-      },      
+      },
       {
         path: 'room-details',
         component: RoomDetailsComponent,
-      }      
+      },
     ],
   },
 ];

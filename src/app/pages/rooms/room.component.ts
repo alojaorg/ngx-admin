@@ -4,11 +4,11 @@ import { Component } from '@angular/core';
   selector: 'ngx-room',
   template: `
     <router-outlet></router-outlet>
-  `,  
+  `,
 })
 export class RoomComponent {
 
   starRate = 2;
   heartRate = 4;
-  radioGroupValue = 'This is value 2';  
+  radioGroupValue = 'This is value 2';
 }

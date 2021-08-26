@@ -19,7 +19,7 @@ export const MENU_ITEMS: NbMenuItem[] = [
         title: 'Detalle Habitaciones',
         link: '/pages/room/room-details',
       },
-    ]
+    ],
   },
   // {
   //   title: 'NGX-ADMIN',
