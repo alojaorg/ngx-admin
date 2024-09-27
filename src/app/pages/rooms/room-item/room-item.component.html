@@ -1,0 +1,53 @@
+<nb-card>
+  <nb-card-header>
+    {{room.name}}
+  </nb-card-header>
+  <nb-card-body>
+    <div class="row">
+      <div class="col-6">
+        <div class="description">
+          <h6>Categoria</h6>
+          <span>{{room.category}}</span>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="description">
+          <h6>Capacidad</h6>
+          <span>{{room.capacity}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+      <div class="col-6">
+        <div class="description">
+          <h6>Precio</h6>
+          <span>{{room.price}}</span>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="description">
+          <h6>Estado</h6>
+          <span>{{room.status}}</span>
+        </div>
+      </div>
+    </div>
+    <div class="row" style="margin-top: 10px;">
+      <div class="col-12">
+        <nb-accordion>
+          <nb-accordion-item>
+            <nb-accordion-item-header>
+              Detalles
+            </nb-accordion-item-header>
+            <nb-accordion-item-body>
+              <nb-list>
+                <nb-list-item *ngFor="let roomDetail of room.roomDetails">
+                  {{roomDetail.displayName}}
+                </nb-list-item>
+              </nb-list>
+            </nb-accordion-item-body>
+          </nb-accordion-item>
+        </nb-accordion>
+      </div>
+    </div>
+  </nb-card-body>
+</nb-card>
